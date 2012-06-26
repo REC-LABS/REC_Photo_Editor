@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rec.photoeditor"
+    android:versionCode="2"
+    android:versionName="1.0.1" >
+
+    <uses-sdk android:minSdkVersion="8"   android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" >
+    </uses-permission>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH" >
+    </uses-permission>
+
+    <application
+        android:name=".Platform"
+        android:icon="@drawable/rec_editor_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EditorActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".editoractivity.BrightnessActivity"
+            android:label="@string/brightness"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".editoractivity.CropActivity"
+            android:label="@string/crop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".editoractivity.RotateActivity"
+            android:label="@string/rotate"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".editoractivity.TestCommandActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".editoractivity.FilterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".picasa.Picasa"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

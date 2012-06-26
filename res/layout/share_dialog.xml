@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10dp">
+
+        <CheckBox
+            android:id="@+id/facebook_check_box"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/facebook_checkbox"
+            android:text="@string/facebook" 
+            />
+
+        <Button
+            android:id="@+id/facebook_log_in"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/log_in" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="10dp">
+
+            <CheckBox
+                android:id="@+id/twitter_check_box"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/twitter_checkbox"
+                android:text="@string/twitter" />
+
+            <Button
+                android:id="@+id/twitter_log_in"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/log_in" />
+        </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10dp">
+
+        <CheckBox
+            android:id="@+id/gplus_check_box"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/picasa_checkbox"
+            android:text="@string/picasa" />
+
+        <Button
+            android:id="@+id/gplus_log_in"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/select" />
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/description_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="4"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/post_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share" /> 
+
+</LinearLayout>

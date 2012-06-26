@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">REC Photo Editor</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="choose_from_sd">Open Picture</string>
+    <string name="image_uri_flag">IMAGE_URI</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="brightness">Brightness</string>
+    <string name="crop">Crop</string>
+    <string name="rotate">Rotate</string>
+    <string name="rotate_right">Rotate Right</string>
+    <string name="rotate_left">Rotate Left</string>
+    <string name="save">Save</string>
+    <string name="processed_image">processed image</string>
+    <string name="image_desc">processed image</string>
+    <string name="splash_desc">splash</string>
+    <string name="filters">Filters</string>
+    <string name="back">Back to editor</string>
+    <string name="email">Email</string>
+    <string name="photo_saved_info">Photo Saved</string>
+    <string name="save_photo_prompt">Save photo before sending it</string>
+    <string name="default_fb_photo_description">Uploaded from REC Photo Editor, best photo editor EVER!</string>
+    <string name="photo_description_label">Post on Facebook</string>
+    <string name="post_on_facebook_label">Post on Facebook</string>
+    <string name="log_out_message">You have logged out!</string>
+    <string name="log_in">Log in</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="picasa">Picasa</string>
+    <string name="select">Select</string>
+    <string name="share">Share</string>
+    <string name="log_out">Log out</string>
+    <string name="unknown">Unknown</string>
+    <string name="change_account">Change account</string>
+    <string name="please_choose_to_google_account_first">Please choose to Google Account first</string>
+    <string name="please_login_to_twitter_first">Please login to Twitter first</string>
+    <string name="please_login_to_facebook_first">Please login to Facebook first</string>
+    <string name="_message_to_facebook_send_succesfully">- Message to Facebook send succesfully\n</string>
+    <string name="_sending_message_to_facebook_failed_">- Sending message to Facebook failed\n </string>
+    <string name="_message_to_twitter_send_succesfully">- Message to Twitter send succesfully\n</string>
+    <string name="_sending_message_to_twitter_failed_">- Sending message to Twitter failed \n </string>
+    <string name="_message_to_picasa_send_succesfully">- Message to Picasa send succesfully \n </string>
+    <string name="_sending_message_to_picasa_failed_">- Sending message to Picasa failed, please check you Picasa settings \n"</string>
+    <string name="photo_uploaded_succesfully">Photo uploaded succesfully</string>
+    <string name="photo_upload_failed_see_datails_">"Photo upload failed. See datails: "</string>
+    <string name="select_a_google_account">Select a Google account</string>
+    <string name="please_wait_picture_is_uploading">Please wait picture is uploading…</string>
+    <string name="about_us_text1">REC Photo Editor was developed under REC Labs program.
+          </string>
+    <string name="about_us_text2">Detail program description as well as application description can be found on our webstie in a Labs tab.
+          </string>
+    <string name="about_us_text3">In case of any question please mail us on:\nrecsolmobile@rec-global.com
+          </string>
+    <string name="rec_photo_editor_logo">REC Photo Editor Logo</string>
+
+</resources>

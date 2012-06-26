@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/rotate_90_menu"
+        android:title="Rotate 90">
+    </item>
+    
+    <item
+        android:id="@+id/test_function_menu"
+        android:title="Test Function">
+    </item>
+    
+    <item
+        android:id="@+id/facebook_menu"
+        android:icon="@drawable/facebook"
+        android:title="Log In">
+    </item>
+    
+    <item
+        android:id="@+id/picasa_menu"
+        android:title="Picasa">
+    </item>
+    
+</menu>
